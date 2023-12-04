@@ -1,0 +1,23 @@
+public class Variables {
+    public static void main(String[] args) {
+      
+        int number = 7;
+        double pi = 3.14;
+        String message = "Sup man!";
+
+    
+        System.out.println("Number: " + number);
+        System.out.println("Pi: " + pi);
+        System.out.println("Message: " + message);
+
+        
+        number = 15;
+        pi = 3.14159;
+        message = "Programming";
+
+        System.out.println("Updated Number: " + number);
+        System.out.println("Updated Pi: " + pi);
+        System.out.println("Updated Message: " + message);
+    }
+}
+//still working with branches, it seems harder that i thought
