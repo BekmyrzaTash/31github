@@ -1,0 +1,15 @@
+public class IfElse{
+            public static void main(String[] args) {
+                int number =5;
+                if (number>0){
+                    System.out.println("positive");
+                }
+                else{
+                    System.out.println("negative");
+                }
+            }
+        }
+//IntelilJ and Git continues to surprise me and complicate all the stuff. 
+//The problem was that the program didnt want to run the code, rxplaining it with an error: java: class IfElse is public, should be declared in a file named IfElse.java
+//But the names of both,project and files were correct
+//I hope Ill be able to find the exact bug
