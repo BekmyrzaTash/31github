@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class PowerOfFive {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        double number = scanner.nextDouble();
+
+        double powerOfFive = Math.pow(number, 5);
+
+        System.out.println("The power of 5 of " + number + " is: " + powerOfFive);
+
+        scanner.close();
+    }
+}
